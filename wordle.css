@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+#game-container {
+    margin-top: 20px;
+}
+
+#word-display {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#feedback {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.placeholder {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-bottom: 2px solid black;
+    margin: 0 5px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.correct {
+    background-color: green;
+    color: white;
+}
+
+.incorrect {
+    color: white;
+    background-color: red;
+}
